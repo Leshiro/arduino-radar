@@ -14,6 +14,9 @@ A simple micro servo-mounted ultrasonic radar that sweeps in an 180° arc and vi
 - The reading is sent over serial in the format `angle,distance`.
 - The Pygame visualizer reads the serial using PySerial and visualizes it in the radar display.
 
+## Preview
+![Preview](images/display.png)
+
 ## Hardware
 - 1x Arduino Uno R3
 - 1x HC-SR04 ultrasonic distance sensor
@@ -34,4 +37,4 @@ A simple micro servo-mounted ultrasonic radar that sweeps in an 180° arc and vi
 ## Schematic
 Designed and simulated in [Tinkercad](https://www.tinkercad.com/).
 ![Schematic](images/schematic.png)
-![Schematic](images/schematic-2.png)
+![Schematic2](images/schematic2.png)
