@@ -24,3 +24,6 @@ MAX_TRAIL = 150 # fadeout delay
 # initials
 INITIAL_ANGLE = 90.0
 INITIAL_DISTANCE = 0.0
+
+# console
+print(f"Using port: {PORT}")
