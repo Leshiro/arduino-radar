@@ -4,7 +4,6 @@
 ![python](https://img.shields.io/badge/python-3.13-blue)
 ![pygame-ce](https://img.shields.io/badge/pygame--ce-2.5.6-green)
 ![pyserial](https://img.shields.io/badge/pyserial-3.5-orange)
-![platformio](https://img.shields.io/badge/platformio-latest-orange)
 
 A simple micro servo-mounted ultrasonic radar that sweeps in an 180° arc and visualizes distance readings in a radar display.
 
