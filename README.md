@@ -35,4 +35,4 @@ A simple micro servo-mounted ultrasonic radar that sweeps in an 180° arc and vi
 
 ## Schematic
 Designed and simulated in [Tinkercad](https://www.tinkercad.com/).
-![Schematic2](images/schematic.png)
+![Schematic](images/schem.png)
