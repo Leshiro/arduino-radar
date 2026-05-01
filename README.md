@@ -1,17 +1,17 @@
-# Arduino Ultrasonic Radar
+# Arduino Sonar
 
 ![arduino](https://img.shields.io/badge/arduino-uno_r3-teal)
 ![python](https://img.shields.io/badge/python-3.13-blue)
 ![pygame-ce](https://img.shields.io/badge/pygame--ce-2.5.6-green)
 ![pyserial](https://img.shields.io/badge/pyserial-3.5-orange)
 
-A simple micro servo-mounted ultrasonic radar that sweeps in an 180° arc and visualizes distance readings in a radar display.
+A simple micro servo-mounted sonar that sweeps in an 180° arc and visualizes distance readings in a sonar display.
 
 ## How it works
 - The Arduino sweeps the SG90 micro servo from 0° to 180° and back.
 - The servo-mounted HC-SR04 sensor takes an ultrasonic distance reading at each step.
 - The reading is sent over serial in the format `angle,distance`.
-- The Pygame visualizer reads the serial using PySerial and visualizes it in the radar display.
+- The Pygame visualizer reads the serial using PySerial and visualizes it in the sonar display.
 
 ## Preview
 ![Preview](images/display.png)
